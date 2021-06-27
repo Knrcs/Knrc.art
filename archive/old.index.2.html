@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Meta and OG-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knrcart</title>
+    <meta name="description" content="This is the gateway to Knrc's Page, You'll find there everything about him :>">
+    <meta name="theme-color" content="#BEEB9F">
+
+    <meta property="og:title" content="Knrc's Webpage">
+    <meta property="og:site_name" content="Knrc.art">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="This is the gateway to Knrc's Page, You'll find there everything about him :>">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://i.imgur.com/FmUu7iM.png">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <!-- Styles-->
+    <link rel="stylesheet" href="css/pagescroll.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+    <div id="pagescroll">
+      <div class="section centered home-link">
+        <h1 class="header" data-aos="fade-down-right" data-aos-anchor=".home-link">Heya!</h1>
+        <h1 class="header" data-aos="fade-down-left" data-aos-anchor=".home-link" data-aos-delay="400">I'm Knrc o/</h1>
+        <img src="misc/elements/line_short.png" class="divide_line" alt="line" data-aos="flip-left" data-aos-anchor=".home-link" data-aos-delay="500">
+      </div>
+      
+      <div class="section centered about-link">
+        <h1 class="about">
+          I'm a young
+          <span class="green_highlight">developer</span>
+        </h1>
+        <h1 class="about">and artist. Just learning</h1>
+        <h1 class="about">
+          literally anything 
+          <span class="green_highlight">what I like.</span>
+        </h1>
+        <img src="misc/elements/line_medium.png" class="divide_line" alt="line">
+      </div>
+      <div class="section centered">
+        <h1 class="header">My goal is it to become </h1>
+        <h1 class="about">
+        a young 
+        <span class="green_highlight"> indie developer</span>
+        :>
+      </h1>
+      <img src="misc/elements/line_medium.png" class="divide_line" alt="line">
+      </div>
+      <div class="section centered">
+        <h1 class="header">Socialmedia</h1>
+          <div class="row">
+            <div class="logo">
+              <a href="https://www.deviantart.com/knrcart" target="_blank">
+                <img src="misc/elements/deviantart-logo.png" alt="Devianart logo" class="img_logo">
+              </a>
+            </div>
+            <div class="logo">
+              <a href="https://www.instagram.com/knrcart" target="_blank">
+                <img src="misc/elements/instagram_logo.png" alt="Instagram logo" class="img_logo">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="logo">
+               <a href="https://github.com/Knrcs/" target="_blank">
+                 <img src="misc/elements/github_logo.png" alt="Github logo" class="img_logo">
+               </a>
+             </div>
+            <div class="logo">
+              <a href="https://www.twitch.tv/knrc" target="_blank">
+                <img src="misc/elements/twitch_logo.png" alt="Twitch logo" class="img_logo">
+              </a>
+            </div>
+            <div class="logo">
+              <a href="https://discord.gg/KappaArmy" target="_blank">
+                <img src="misc/elements/discord-logo.png" alt="Discord logo" class="img_logo">
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+<!--Scripts-->
+    <script type="text/javascript" src="js/pagescroll.js"></script>
+    <script>
+      new PageScroll('#pagescroll', {
+          animDuration: 350, // 0.35 seconds
+          easing: 'cubic-bezier(.17,.67,.83,.67)', //animation easing
+          controlColor: '#133463', // color of navigation arrows
+          nav: [
+              document.getElementById('home-link'),
+              document.getElementById('about-link'),
+              document.getElementById('goals-link'),
+              document.getElementById('socials-link')
+          ] // array of links selectors
+})
+    </script>  
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init(
+        {
+            offset: 360,
+            once: false,
+            mirror: true,
+            offset: 0,
+            duration: 800
+        });</script>
+
+  
+  </body>
+</html>
