@@ -10,26 +10,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
-
-    <!-- Scripts-->
-    <script type="text/javascript" src="js/pagescroll.js"></script>
     <!-- Styles-->
     <link rel="stylesheet" href="css/pagescroll.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
   <body>
     <div id="pagescroll">
-      <div class="section centered">
-        <h1 class="header">Heya!</h1>
-        <h1 class="header">I'm Knrc.</h1>
+      <div class="section centered home-link">
+        <h1 class="header" data-aos="fade-down-right" data-aos-anchor=".home-link">Heya!</h1>
+        <h1 class="header" data-aos="fade-down-left" data-aos-anchor=".home-link" data-aos-delay="400">I'm Knrc.</h1>
+      </div>
+      <div class="section centered about-link">
+        <h1 class="about">
+          I'm a young
+          <span class="green_highlight">developer</span>
+        </h1>
+        <h1 class="about">and artist. Just learning</h1>
+        <h1 class="about">
+          literally anything 
+          <span class="green_highlight">what I like.</span>
+        </h1>
       </div>
       <div class="section centered">
-        <h1 class="header">I'm a young developer</h1>
-        <h1 class="header">and artist. Just doing</h1>
-        <h1 class="header">literally anything what I like.</h1>
+        <h1 class="header">My goal is it to become </h1>
+        <h1 class="about">
+        a young 
+        <span class="green_highlight"> indie developer</span>
+        :>
+      </h1>
+      </div>
+      <div class="section centered">
+        <h1 class="header">Socialmedia</h1>
+          <div class="row">
+
+          </div>
       </div>
     </div>
+<!--Scripts-->
     <script type="text/javascript" src="js/pagescroll.js"></script>
     <script>
       new PageScroll('#pagescroll', {
@@ -44,6 +63,15 @@
           ] // array of links selectors
 })
     </script>  
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init(
+        {
+            offset: 360,
+            once: false,
+            mirror: true,
+            offset: 0,
+            duration: 800
+        });</script>
 
   
   </body>
