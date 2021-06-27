@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Meta and OG-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knrcart</title>
+    <meta name="description" content="Yooo Knrc's Website wohoooo">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Scripts-->
+    <script type="text/javascript" src="js/pagescroll.js"></script>
+    <!-- Styles-->
+    <link rel="stylesheet" href="css/pagescroll.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+    <div id="pagescroll">
+      <div class="section centered">
+        <h1 class="header">Heya!</h1>
+        <h1 class="header">I'm Knrc.</h1>
+      </div>
+      <div class="section centered">
+        <h1 class="header">I'm a young developer</h1>
+        <h1 class="header">and artist. Just doing</h1>
+        <h1 class="header">literally anything what I like.</h1>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/pagescroll.js"></script>
+    <script>
+      new PageScroll('#pagescroll', {
+          animDuration: 350, // 0.35 seconds
+          easing: 'cubic-bezier(.17,.67,.83,.67)', //animation easing
+          controlColor: '#133463', // color of navigation arrows
+          nav: [
+              document.getElementById('home-link'),
+              document.getElementById('about-link'),
+              document.getElementById('goals-link'),
+              document.getElementById('socials-link')
+          ] // array of links selectors
+})
+    </script>  
+
+  
+  </body>
+</html>
