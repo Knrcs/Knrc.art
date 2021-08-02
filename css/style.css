@@ -68,6 +68,28 @@ html {
     width: 8vw;
 }
 
+a.button{
+    display: inline-block;
+    padding:0.5em 1.5em;
+    border:0.15em solid #26A69A;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.7em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Teko', sans-serif;
+    font-weight:550;
+    font-size: 2vw;
+    color:#26A69A;
+    background-color: #BEDB39;
+    text-align:center;
+    transition: all 0.2s;    
+}
+
+a.button1:hover{
+    color:#000000;
+    background-color:#133463;
+}
+
 @media only screen and (max-width: 1024px) {
     .header {
         font-size: 12vw;
