@@ -48,6 +48,22 @@ html {
     font-size: 3vw;
 }
 
+.EVILNOISES {
+    font-family: Consolas,monaco,monospace;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1;
+    margin-left: -100px;
+}
+
+a.EVILNOISES {
+        color:#000000;
+}
+
+a.EVILNOISES:hover {
+    color:#26A69A;
+}
+
 .divide_line {
     height: 4vw;
 }
